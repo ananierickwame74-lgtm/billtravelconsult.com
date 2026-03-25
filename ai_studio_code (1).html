@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Expert visa assistance, study abroad programs, and premium travel packages. Travel abroad without stress or rejection.">
+    <title>Premium Travel & Visa Agency | Travel Without Stress</title>
+    
+    <!-- SEO & Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "billtravelconsultant74",
+      "name": "Bill Travel Consult",
+      "description": "Expert visa and travel assistance.",
+      "telephone": "+2330206410714 / +2330247571706"
+    }
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            blue: '#0F172A',
+                            gold: '#F59E0B',
+                            light: '#F8FAFC'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom Utilities & Animations */
+        .glass-nav { background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(10px); }
+        .hover-card:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }
+        .fade-in { animation: fadeIn 1s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        /* Hide scrollbar for clean UI */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    </style>
+</head>
+<body class="font-sans text-slate-700 bg-brand-light antialiased">
+
+    <!-- NAVIGATION (Sticky) -->
+    <nav class="glass-nav fixed w-full z-50 top-0 transition-all duration-300 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-plane-departure text-brand-gold text-2xl"></i>
+                    <span class="font-heading font-bold text-white text-xl tracking-wide">Bill Travel Consult<span class="text-brand-gold">BTC</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#services" class="text-gray-300 hover:text-white transition">Services</a>
+                    <a href="#process" class="text-gray-300 hover:text-white transition">How It Works</a>
+                    <a href="#destinations" class="text-gray-300 hover:text-white transition">Destinations</a>
+                    <a href="#contact" class="bg-brand-gold text-white px-6 py-2.5 rounded-md font-semibold hover:bg-amber-400 transition shadow-lg shadow-amber-500/30">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. HERO SECTION -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-brand-blue overflow-hidden">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2074&auto=format&fit=crop" alt="Airport terminal" class="w-full h-full object-cover opacity-20">
+            <div class="absolute inset-0 bg-gradient-to-r from-brand-blue via-brand-blue/90 to-transparent"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 fade-in">
+            <div class="max-w-3xl">
+                <div class="inline-block bg-white/10 border border-white/20 rounded-full px-4 py-1.5 mb-6">
+                    <p class="text-brand-gold font-medium text-sm flex items-center gap-2">
+                        <i class="fa-solid fa-star"></i> Trusted by 1,000+ Travelers
+                    </p>
+                </div>
+                <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+                    Travel Abroad Without <span class="text-brand-gold">Stress</span> or Rejection
+                </h1>
+                <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl leading-relaxed">
+                    Expert visa assistance, study abroad programs, and premium travel packages. Get your application right the first time with our proven success process.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#contact" class="bg-brand-gold text-white text-center px-8 py-4 rounded-md font-semibold text-lg hover:bg-amber-400 transition shadow-lg shadow-amber-500/30 flex items-center justify-center gap-2">
+                        Get Free Consultation <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="https://wa.me/0206410714?text=Hello,%20I%20want%20to%20travel%20abroad" target="_blank" class="border-2 border-white/30 text-white text-center px-8 py-4 rounded-md font-semibold text-lg hover:bg-white/10 transition flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-green-400 text-xl"></i> Chat on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. TRUST & SOCIAL PROOF -->
+    <section class="bg-white border-b border-gray-200 py-10 relative z-20 -mt-8 mx-4 md:mx-auto max-w-6xl rounded-xl shadow-xl">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-gray-100">
+            <div class="p-4">
+                <h3 class="font-heading text-3xl font-bold text-brand-blue mb-1">98%</h3>
+                <p class="text-gray-500 font-medium text-sm">Visa Success Rate</p>
+            </div>
+            <div class="p-4">
+                <h3 class="font-heading text-3xl font-bold text-brand-blue mb-1">1,500+</h3>
+                <p class="text-gray-500 font-medium text-sm">Approved Clients</p>
+            </div>
+            <div class="p-4">
+                <h3 class="font-heading text-3xl font-bold text-brand-blue mb-1">10+</h3>
+                <p class="text-gray-500 font-medium text-sm">Years Experience</p>
+            </div>
+            <div class="p-4">
+                <h3 class="font-heading text-3xl font-bold text-brand-blue mb-1">4.9/5</h3>
+                <p class="text-gray-500 font-medium text-sm">Google Reviews</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. SERVICES SECTION -->
+    <section id="services" class="py-24 bg-brand-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="font-heading text-3xl md:text-4xl font-bold text-brand-blue mb-4">Everything You Need to Travel</h2>
+                <p class="text-gray-600 text-lg">We remove the complexities of global travel, offering end-to-end solutions for professionals, students, and tourists.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover-card transition duration-300">
+                    <div class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-passport text-brand-blue text-2xl"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold text-brand-blue mb-3">Visa Assistance</h3>
+                    <p class="text-gray-600 mb-6 text-sm leading-relaxed">Expert guidance for UK, USA, Canada & Schengen visas. We handle the paperwork so you don't have to.</p>
+                    <a href="#contact" class="text-brand-gold font-semibold hover:text-amber-600 flex items-center gap-1">Apply Now <i class="fa-solid fa-chevron-right text-xs"></i></a>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover-card transition duration-300">
+                    <div class="w-14 h-14 bg-amber-50 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-graduation-cap text-brand-gold text-2xl"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold text-brand-blue mb-3">Study Abroad</h3>
+                    <p class="text-gray-600 mb-6 text-sm leading-relaxed">Gain admission into top-tier global universities. We assist with course selection, applications, and student visas.</p>
+                    <a href="#contact" class="text-brand-gold font-semibold hover:text-amber-600 flex items-center gap-1">Apply Now <i class="fa-solid fa-chevron-right text-xs"></i></a>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover-card transition duration-300">
+                    <div class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-plane text-brand-blue text-2xl"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold text-brand-blue mb-3">Flight Booking</h3>
+                    <p class="text-gray-600 mb-6 text-sm leading-relaxed">Secure the best rates on international flights. Flexible dates, premium airlines, and hassle-free ticketing.</p>
+                    <a href="#contact" class="text-brand-gold font-semibold hover:text-amber-600 flex items-center gap-1">Book Now <i class="fa-solid fa-chevron-right text-xs"></i></a>
+                </div>
+                <!-- Service 4 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover-card transition duration-300">
+                    <div class="w-14 h-14 bg-amber-50 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-umbrella-beach text-brand-gold text-2xl"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold text-brand-blue mb-3">Tour Packages</h3>
+                    <p class="text-gray-600 mb-6 text-sm leading-relaxed">All-inclusive holiday packages to Dubai, Paris, Maldives, and more. Accommodation and tours sorted.</p>
+                    <a href="#contact" class="text-brand-gold font-semibold hover:text-amber-600 flex items-center gap-1">Explore <i class="fa-solid fa-chevron-right text-xs"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. PROCESS / HOW IT WORKS -->
+    <section id="process" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-heading text-3xl md:text-4xl font-bold text-brand-blue mb-4">A Simple, Scam-Free Process</h2>
+                <p class="text-gray-600 text-lg">Four steps between you and your dream destination.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+                <!-- Connecting Line (Desktop) -->
+                <div class="hidden md:block absolute top-12 left-[10%] right-[10%] h-0.5 bg-gray-200 z-0"></div>
+
+                <!-- Step 1 -->
+                <div class="relative z-10 text-center">
+                    <div class="w-24 h-24 mx-auto bg-brand-blue text-white rounded-full flex items-center justify-center text-3xl font-bold mb-6 border-8 border-white shadow-lg">1</div>
+                    <h4 class="font-heading text-xl font-bold text-brand-blue mb-2">Consultation</h4>
+                    <p class="text-gray-600 text-sm px-4">We assess your profile, budget, and travel goals completely free.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="relative z-10 text-center">
+                    <div class="w-24 h-24 mx-auto bg-brand-gold text-white rounded-full flex items-center justify-center text-3xl font-bold mb-6 border-8 border-white shadow-lg">2</div>
+                    <h4 class="font-heading text-xl font-bold text-brand-blue mb-2">Document Review</h4>
+                    <p class="text-gray-600 text-sm px-4">Our experts organize and perfect your documents to ensure zero errors.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="relative z-10 text-center">
+                    <div class="w-24 h-24 mx-auto bg-brand-blue text-white rounded-full flex items-center justify-center text-3xl font-bold mb-6 border-8 border-white shadow-lg">3</div>
+                    <h4 class="font-heading text-xl font-bold text-brand-blue mb-2">Processing</h4>
+                    <p class="text-gray-600 text-sm px-4">We submit your application and provide real-time tracking updates.</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="relative z-10 text-center">
+                    <div class="w-24 h-24 mx-auto bg-green-500 text-white rounded-full flex items-center justify-center text-3xl font-bold mb-6 border-8 border-white shadow-lg"><i class="fa-solid fa-check"></i></div>
+                    <h4 class="font-heading text-xl font-bold text-brand-blue mb-2">Approval & Fly</h4>
+                    <p class="text-gray-600 text-sm px-4">Receive your visa, get your flight tickets, and embark on your journey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. FEATURED DESTINATIONS -->
+    <section id="destinations" class="py-24 bg-brand-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <h2 class="font-heading text-3xl md:text-4xl font-bold text-brand-blue mb-4">Top Destinations</h2>
+                    <p class="text-gray-600 text-lg">High-demand countries we process daily.</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Dest 1 -->
+                <div class="group relative rounded-2xl overflow-hidden h-80 shadow-lg cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1513635269975-5969336ac1cb?q=80&w=2070&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="UK">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-6 w-full">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <h3 class="text-2xl font-bold text-white mb-1">United Kingdom 🇬🇧</h3>
+                                <p class="text-gray-300 text-sm">Study, Work & Visit Visas</p>
+                            </div>
+                            <span class="bg-brand-gold text-brand-blue text-xs font-bold px-3 py-1 rounded-full">2-4 Weeks</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dest 2 -->
+                <div class="group relative rounded-2xl overflow-hidden h-80 shadow-lg cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=2069&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="USA">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-6 w-full">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <h3 class="text-2xl font-bold text-white mb-1">United States 🇺🇸</h3>
+                                <p class="text-gray-300 text-sm">B1/B2 & F1 Visas</p>
+                            </div>
+                            <span class="bg-brand-gold text-brand-blue text-xs font-bold px-3 py-1 rounded-full">Fast Track</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dest 3 -->
+                <div class="group relative rounded-2xl overflow-hidden h-80 shadow-lg cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=2011&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Canada">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-6 w-full">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <h3 class="text-2xl font-bold text-white mb-1">Canada 🇨🇦</h3>
+                                <p class="text-gray-300 text-sm">Express Entry & Study</p>
+                            </div>
+                            <span class="bg-brand-gold text-brand-blue text-xs font-bold px-3 py-1 rounded-full">High Success</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. LEAD CAPTURE SECTION (CRITICAL) -->
+    <section id="contact" class="py-24 bg-brand-blue relative overflow-hidden">
+        <!-- Decor -->
+        <div class="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-brand-gold rounded-full blur-[120px] opacity-20"></div>
+        <div class="absolute bottom-0 left-0 -mb-20 -ml-20 w-80 h-80 bg-blue-500 rounded-full blur-[120px] opacity-20"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col lg:flex-row">
+                <!-- Left: Copy & Urgency -->
+                <div class="bg-slate-50 p-10 lg:p-16 lg:w-5/12 border-r border-gray-100 flex flex-col justify-center">
+                    <h2 class="font-heading text-3xl md:text-4xl font-bold text-brand-blue mb-4">Stop Guessing. <br>Start Your Journey.</h2>
+                    <p class="text-gray-600 mb-8">Get personalized advice from our top migration experts. We'll tell you exactly what you need to succeed.</p>
+                    
+                    <div class="space-y-6 mb-8">
+                        <div class="flex items-start gap-4">
+                            <i class="fa-solid fa-circle-check text-green-500 mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-brand-blue">No Hidden Charges</h4>
+                                <p class="text-sm text-gray-500">100% transparent pricing framework.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <i class="fa-solid fa-circle-check text-green-500 mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-brand-blue">Personalized Support</h4>
+                                <p class="text-sm text-gray-500">Dedicated agent for your specific case.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-red-50 border border-red-100 p-4 rounded-xl flex items-center gap-4">
+                        <i class="fa-solid fa-clock text-red-500 text-xl"></i>
+                        <p class="text-sm font-semibold text-red-700">High Demand: Only <span class="font-bold">15 slots</span> left for free consultations this week.</p>
+                    </div>
+                </div>
+
+                <!-- Right: Form -->
+                <div class="p-10 lg:p-16 lg:w-7/12">
+                    <form action="#" method="POST" class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <!-- Name -->
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
+                                <input type="text" id="name" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-blue focus:border-brand-blue transition bg-gray-50 outline-none" placeholder="John Doe">
+                            </div>
+                            <!-- Phone -->
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">WhatsApp Phone Number *</label>
+                                <input type="tel" id="phone" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-blue focus:border-brand-blue transition bg-gray-50 outline-none" placeholder="+123 456 7890">
+                            </div>
+                        </div>
+                        
+                        <!-- Email -->
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                            <input type="email" id="email" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-blue focus:border-brand-blue transition bg-gray-50 outline-none" placeholder="john@example.com">
+                        </div>
+
+                        <!-- Service Needed (Dropdown) -->
+                        <div>
+                            <label for="service" class="block text-sm font-medium text-gray-700 mb-2">Service Needed</label>
+                            <select id="service" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-blue focus:border-brand-blue transition bg-gray-50 outline-none text-gray-700">
+                                <option value="" disabled selected>Select a service...</option>
+                                <option value="visa-uk">UK Visa Assistance</option>
+                                <option value="visa-usa">USA Visa Assistance</option>
+                                <option value="visa-canada">Canada Visa Assistance</option>
+                                <option value="study-abroad">Study Abroad Program</option>
+                                <option value="tour-package">Holiday / Tour Package</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <!-- Submit CTA -->
+                        <button type="submit" class="w-full bg-brand-gold text-white font-bold text-lg py-4 rounded-lg hover:bg-amber-400 transition shadow-lg shadow-amber-500/30">
+                            Start Your Journey Now
+                        </button>
+                        <p class="text-xs text-center text-gray-400 mt-4"><i class="fa-solid fa-lock"></i> Your information is 100% secure and will not be shared.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. FAQ SECTION -->
+    <section class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-heading text-3xl md:text-4xl font-bold text-brand-blue mb-4">Frequently Asked Questions</h2>
+            </div>
+            
+            <div class="space-y-4">
+                <!-- FAQ 1 -->
+                <details class="group bg-brand-light rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex cursor-pointer items-center justify-between gap-1.5 p-6 font-semibold text-brand-blue">
+                        <h2 class="text-lg">How long does visa processing take?</h2>
+                        <span class="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+                            <i class="fa-solid fa-plus group-open:hidden"></i>
+                            <i class="fa-solid fa-minus hidden group-open:block"></i>
+                        </span>
+                    </summary>
+                    <p class="px-6 pb-6 text-gray-600 leading-relaxed">Processing times vary by destination. Typically, UK visas take 2-4 weeks, Canada takes 4-12 weeks, and US appointment wait times fluctuate. We will provide an exact timeline during your consultation.</p>
+                </details>
+                <!-- FAQ 2 -->
+                <details class="group bg-brand-light rounded-lg[&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex cursor-pointer items-center justify-between gap-1.5 p-6 font-semibold text-brand-blue">
+                        <h2 class="text-lg">Do you guarantee visa approval?</h2>
+                        <span class="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+                            <i class="fa-solid fa-plus group-open:hidden"></i>
+                            <i class="fa-solid fa-minus hidden group-open:block"></i>
+                        </span>
+                    </summary>
+                    <p class="px-6 pb-6 text-gray-600 leading-relaxed">No genuine agency can "guarantee" a visa, as final decisions lie with the embassy. However, we guarantee a flawless, highly optimized application that maximizes your chances and avoids automatic rejections due to errors.</p>
+                </details>
+                <!-- FAQ 3 -->
+                <details class="group bg-brand-light rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex cursor-pointer items-center justify-between gap-1.5 p-6 font-semibold text-brand-blue">
+                        <h2 class="text-lg">Are there hidden charges?</h2>
+                        <span class="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+                            <i class="fa-solid fa-plus group-open:hidden"></i>
+                            <i class="fa-solid fa-minus hidden group-open:block"></i>
+                        </span>
+                    </summary>
+                    <p class="px-6 pb-6 text-gray-600 leading-relaxed">Absolutely not. We believe in 100% transparency. During your consultation, you will receive a complete breakdown of our service fees, embassy fees, and required financial proofs.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. FOOTER -->
+    <footer class="bg-brand-blue pt-16 pb-8 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <!-- Brand -->
+                <div class="col-span-1 md:col-span-1">
+                    <div class="flex items-center gap-2 mb-6">
+                        <i class="fa-solid fa-plane-departure text-brand-gold text-2xl"></i>
+                        <span class="font-heading font-bold text-white text-xl tracking-wide">Bill Travel Consult<span class="text-brand-gold">BTC</span></span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">Your trusted partner for stress-free visa processing, work abroad, and global travel.</p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-brand-gold transition"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-brand-gold transition"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-brand-gold transition"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Links -->
+                <div>
+                    <h4 class="font-bold text-white mb-6">Quick Links</h4>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li><a href="#" class="hover:text-brand-gold transition">About Us</a></li>
+                        <li><a href="#services" class="hover:text-brand-gold transition">Our Services</a></li>
+                        <li><a href="#" class="hover:text-brand-gold transition">Success Stories</a></li>
+                        <li><a href="#" class="hover:text-brand-gold transition">Travel Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="font-bold text-white mb-6">Top Services</h4>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li><a href="#" class="hover:text-brand-gold transition">UK Visa Processing</a></li>
+                        <li><a href="#" class="hover:text-brand-gold transition">USA B1/B2 Visas</a></li>
+                        <li><a href="#" class="hover:text-brand-gold transition">Canada Express Entry</a></li>
+                        <li><a href="#" class="hover:text-brand-gold transition">Study in Europe</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="font-bold text-white mb-6">Contact Us</h4>
+                    <ul class="space-y-4 text-sm text-gray-400">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot mt-1 text-brand-gold"></i>
+                            <span>La-Bawaleshi Rd,Opkonglo,<br>Eastern region, Ghana</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-phone text-brand-gold"></i>
+                            <span>+233 0206410714 / 233 0247571706</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-envelope text-brand-gold"></i>
+                            <span>billtravelconsultant74@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+                <p>&copy; 2023 Bill Travel Consult. All rights reserved.</p>
+                <div class="flex gap-4 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-white transition">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 9. FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/2330206410714?text=Hello,%20I%20want%20to%20travel%20abroad" target="_blank" class="fixed bottom-6 right-6 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-lg shadow-green-500/30 hover:scale-110 hover:-translate-y-1 transition-all duration-300 z-50">
+        <i class="fa-brands fa-whatsapp"></i>
+        <!-- Ping animation ring -->
+        <span class="absolute inline-flex h-full w-full rounded-full bg-[#25D366] opacity-30 animate-ping z-[-1]"></span>
+    </a>
+
+    <!-- Simple Script for Navbar Scroll Effect -->
+    <script>
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-md');
+                nav.classList.replace('bg-brand-blue/95', 'bg-brand-blue');
+            } else {
+                nav.classList.remove('shadow-md');
+            }
+        });
+    </script>
+</body>
+</html>
